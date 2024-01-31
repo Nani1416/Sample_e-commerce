@@ -1,0 +1,282 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.free-delivery-div{
+    display: flex;
+}
+.free-delivery-div h4{
+    color:rgba(0, 0, 0, 0.5);
+}
+.nav-div-box1{
+    display: flex;
+    justify-content: space-around;
+}
+.empty-div{
+    width: 60%;
+}
+.contact-us-div{
+    display: flex;
+    align-items: center;
+    
+}
+.my-app-div{
+    display: flex;
+}
+.myshoppy{
+    margin: 4px;
+}
+.contact-logo ,.downarrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-div-box2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+}
+.search-div{
+    width:50%;
+}
+.search-input{
+    height: 40px;
+    width: 100%;
+    border-radius: 3px;
+}
+.signup-div,.login-div,.search-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo h1{
+    color:rgb(16, 230, 16);
+}
+.search-input{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.signup-div ,.login-div{
+    width:100px;
+    height:40px;
+    background-color:rgb(16, 230, 16);
+    border-radius: 6px;
+    font-weight: 600;
+}
+.signup-div:hover{
+    cursor: pointer;
+}
+.login-div:hover{
+    cursor:pointer;
+}
+.downarrow:hover{
+    cursor: pointer;
+}
+.nav-div-box3{
+    display: flex;
+    background-color: rgb(20, 228, 20);
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-radius: 10px;
+
+}
+.items{
+    height:50px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.items:hover{
+    cursor: pointer;
+}
+img{
+    width:150px;
+    height:150px;
+}
+.cart-button{
+    width:100px;
+    height:30px;
+    background-color: rgb(54, 236, 57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;   
+}
+.cart-button:hover{
+    cursor: pointer;
+}
+.main-items{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-items1{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.cart-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgba(133, 136, 138, 0.087);
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.132);
+
+}
+.add-remove-div{
+    margin: 40px;
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    border: 2px solid green;
+    border-radius: 15px;
+}
+.add-div,.remove-div{
+    display: flex;
+    align-items: center;
+}
+.add-div:hover{
+    cursor: pointer;
+}
+.remove-div:hover{
+    cursor: pointer;
+}
+.ticks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+}
+.tick1 ,.tick2{
+    display: flex;
+    gap: 5%;
+    align-items: center;
+}
+.quantity{
+   display: inline-block;
+}
+.qua-add{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cancel-button{
+    margin: 10px;
+}
+.cancel-button:hover{
+    cursor: pointer;
+}
+.cart-page{
+    display: flex;
+    width:60%;
+    flex-direction: column;
+}
+.cart-item-image{
+    display: flex;
+    align-items: center;
+}
+.main-div-cart{
+    display: flex;
+}
+.checkout-div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   margin-left: 15px;
+   left:60%;
+   height: 60vh;
+   background-color: rgba(111, 114, 114, 0.128);
+   width: 40%;
+   border: none;
+   border-radius: 20px;
+}
+.home-deli{
+    text-align: center;
+}
+.total-amount{
+    display: flex;
+    flex-direction: column;
+}
+.subtotal , .delivery-charge ,.total{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: space-between;
+}
+.delivery-charge{
+    display: flex;
+    flex-wrap: wrap;
+}
+.checkout-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:0;
+    height: 40px;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    background-color: rgb(34, 227, 16);
+    border-radius: 10px;
+}
+.checkout-button:hover{
+    cursor: pointer;
+}
+@media (max-width:500px) {
+
+p{
+    font-size: 15px;
+}
+.heading h1{
+    font-size: 20px;
+}
+.item-description{
+    font-size: 10px;
+}
+.main-div-cart{
+    flex-wrap: wrap;
+}
+.nav-div-box2{
+    flex-direction: column;
+}
+.nav-div-box3{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.logo h1{
+    font-size: 60px;
+}
+.search-div{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.signup-div{
+    align-self: flex-start;
+}
+.login-div{
+    align-self: flex-end;
+}
+.empty-div{
+    width: 0;
+}
+.cart-items{
+    width: 70vh;
+    margin: 0;
+    align-self: flex-start;
+}
+.checkout-div{
+    width: 100%;
+    margin-top: 20px;
+}
+}
